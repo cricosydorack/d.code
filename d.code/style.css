@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+body {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/imagemfundo.jpg);
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+
+header {
+    width: 100%;
+    font-size: 35px;
+    text-align: right;
+    text-shadow: #FC0 1px 1px 10px;
+}
+
+h1 {}
+
+
+form {
+    background-color: rgba(0, 0, 0, 0.507);
+    border: #FC0 solid 1px;
+    border-radius: 50px;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#opçoes {
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    border: #FC0 solid 1px;
+    border-radius: 5px;
+    color: #FC0;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
+#entradaMensagem {
+    width: 350px;
+    height: 80px;
+    background-color: black;
+    border: #FC0 solid 1px;
+    border-radius: 5px;
+    color: #FC0;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 102px;
+}
+
+#incremento {
+    display: none;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    border: #FC0 solid 1px;
+    border-radius: 5px;
+    color: #FC0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#submit {
+    display: none;
+    color: #FC0;
+    font-weight: bold;
+    margin-top: 25px;
+    background-color: black;
+    font-size: 20px;
+
+}
+
+#labelcodificar {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    color: #FC0;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+#labeldecodificar {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    color: #FC0;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.saidaMensagem {
+    color: #FC0;
+    background: black;
+    border: #FC0 solid 1px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+footer {
+    font-size: 20px;
+    color: black;
+    margin-top: 30px;
+    text-align: right;
+    background: rgb(219, 176, 5);
+}
